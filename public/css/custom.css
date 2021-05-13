@@ -1,0 +1,95 @@
+.video-container{
+    width:99.5%;
+    margin:auto;
+    height:490px;
+    position:relative;
+}
+
+body{
+    background-color: white;
+}
+.gray-text{
+    color:#909090;
+}
+
+.sub-btn-active{
+    text-align: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0% 2px;
+    height: 36px;
+    width: 114px;
+    border-radius: 0;
+    border:none;
+    background-color: #F9F9F9;
+    color: #606060;
+}
+
+.sub-btn-active:hover, .sub.btn-active:focus{
+    background-color: #f9f9f9;
+    border:none;
+    color:#606060;
+}
+
+.sub-btn
+{
+    height: 36px;
+    width: 114px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 0;
+    border:none;
+    background-color: red;
+    color: white;
+}
+
+.sub-btn:hover, .sub-btn:focus{
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.comment-form-control{
+    width:100%;
+    padding:10px 10px 10px 10px;
+    border:none;
+    border-bottom:1px solid #919191;
+}
+
+.comment-form-control:focus{
+    outline:none;
+}
+
+.search-btn{
+    border:none;
+}
+.search-btn:focus{
+    border: none;
+}
+
+.card-horizontal{
+    display:flex;
+    flex:1 1 auto;
+}
+
+
+.support-btn
+{
+    height: 36px;
+    width: 130px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 0;
+    border:none;
+    background-color: black;
+    color: white;
+}
+
+.support-btn:hover{
+    color: white;
+}
+
+.supportButtonsModal{
+    width:100%;
+}
